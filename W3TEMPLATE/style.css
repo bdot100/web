@@ -1,0 +1,35 @@
+body {font-family: Georgia, serif}
+.mySlides {display: none}
+
+
+/* Create a Parallax Effect */
+.bgimg-1, .bulksms, .bitcoin {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/* bitcoin */
+.bitcoin {
+    background-image: url("bitcoin.png");
+	min-height: 400px;
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* bulksms */
+.bulksms {
+    background-image: url("Bulksms.jpg");
+	min-height: 400px;
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+#footer {
+	text-decoration: none;
+}

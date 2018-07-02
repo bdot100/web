@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<title>Register</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+.main-agile {
+    width: 50%;
+    margin: 0px auto 0px auto;
+    background: rgba(0, 0, 0, 0.22);
+    padding: 12px;
+    position: relative;
+    -webkit-box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.12);
+}
+
+</style>
+<body>
+
+<h1 class="w3-center">Already Registered? Click <a href="login.html"><button class="w3-btn w3-blue w3-round w3-hover-red  w3-margin-bottom w3-padding-small"> Here</button></a> To Login</h1>
+
+<form class="main-agile">
+<div  class="w3-container w3-margin " >
+  <h2 style="color:orange">Registration Form</h2>
+<div class="w3-row-padding">
+  <div class="w3-half">
+    <label style="color: teal;">First Name:</label>
+    <input class="w3-input w3-border" type="text" placeholder="Enter First Name">
+  </div>
+  <div class="w3-half">
+    <label style="color: teal;">Last Name:</label>
+    <input class="w3-input w3-border" type="text" placeholder="Enter Last Name">
+  </div>
+  </div>
+  <div class="w3-row-padding">
+  <div class="w3-half">
+    <label style="color: teal;">Phone Number:</label>
+    <input class="w3-input w3-border " maxlength ="11" minlength = "11" required" type="text" placeholder="Format: 08056565656">
+  </div>
+  <div class="w3-half w3-rest">
+    <label for="state" style="color: teal;">State:</label>
+	<select name="state" class="w3-select w3-border" required>
+              <option value="" selected="selected">-- Select --</option>
+              <option value="Abuja FCT">Abuja FCT</option>
+              <option value="Abia">Abia</option>
+              <option value="Adamawa">Adamawa</option>
+              <option value="Akwa Ibom">Akwa Ibom</option>
+              <option value="Anambra">Anambra</option>
+              <option value="Bauchi">Bauchi</option>
+              <option value="Bayelsa">Bayelsa</option>
+              <option value="Benue">Benue</option>
+              <option value="Borno">Borno</option>
+              <option value="Cross River">Cross River</option>
+              <option value="Delta">Delta</option>
+              <option value="Ebonyi">Ebonyi</option>
+              <option value="Edo">Edo</option>
+              <option value="Ekiti">Ekiti</option>
+              <option value="Enugu">Enugu</option>
+              <option value="Gombe">Gombe</option>
+              <option value="Imo">Imo</option>
+              <option value="Jigawa">Jigawa</option>
+              <option value="Kaduna">Kaduna</option>
+              <option value="Kano">Kano</option>
+              <option value="Katsina">Katsina</option>
+              <option value="Kebbi">Kebbi</option>
+              <option value="Kogi">Kogi</option>
+              <option value="Kwara">Kwara</option>
+              <option value="Lagos">Lagos</option>
+              <option value="Nassarawa">Nassarawa</option>
+              <option value="Niger">Niger</option>
+              <option value="Ogun">Ogun</option>
+              <option value="Ondo">Ondo</option>
+              <option value="Osun">Osun</option>
+              <option value="Oyo">Oyo</option>
+              <option value="Plateau">Plateau</option>
+              <option value="Rivers">Rivers</option>
+              <option value="Sokoto">Sokoto</option>
+              <option value="Taraba">Taraba</option>
+              <option value="Yobe">Yobe</option>
+              <option value="Zamfara">Zamfara</option>
+     <option value="Outside Nigeria">Outside Nigeria</option>
+            </select>  
+          </div>
+		  </div>
+    <div class="w3-row-padding">
+    <div class="w3-half">
+    <label style="color: teal;">Username:</label>
+    <input class="w3-input w3-border" type="text" placeholder="Your Preferred Username">
+      </div>
+	  <div class="w3-half">
+    <label style="color: teal;">Email:</label>
+    <input class="w3-input w3-border" type="text" placeholder="Your Email Address">
+      </div></br>
+	  
+	  
+	 <div> 
+    <label for="referral" style="color:teal">Where did you hear about us?</label>
+	<select class="w3-select w3-border" name="option">
+    <option value="" disabled selected>-- Select --</option>
+              <option value="Facebook">Facebook</option>
+              <option value="Google">Google</option>
+              <option value="Nairaland">Nairaland</option>
+              <option value="LindaIkeji">Linda Ikeji Blog</option>
+              <option value="Twitter">Twitter</option>
+              <option value="Instagram">Instagram</option>
+              <option value="Friend">Friend</option>
+              <option value="Others">Others</option>
+  </select>
+  </div>
+    </div>
+	  <div class="w3-row-padding">
+	  <div class="w3-half">
+	  <label for="password" style="color:teal">Password:</label><br/>
+			<input type="password" class="w3-input w3-border" name="password" maxlength ="15" placeholder="Enter password" required>
+		</div>
+		
+		<div class = "w3-half">
+			<label for="password" style="color:teal">Confirm Password:</label><br/>
+			<input type="password" class="w3-input w3-border" name="confirm_password" maxlength ="15" placeholder="Re-type your password" required><br/>
+		</div>
+    </div>
+	  
+       <p><button class="w3-btn w3-teal w3-center"><a href="" style="text-decoration: none;">Register</a></button></p>  
+    </div>
+	</form>
+
+</body>
+</html>
